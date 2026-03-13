@@ -1,0 +1,17 @@
+{
+  "appId": "306a713e-3c82-45dc-a7a3-73ab7dd88763",
+  "displayName": "terraform-sp",
+  "password": "cIS8Q~W3w_4zeKeNpxd3eACbRymxGuBlgUKBvdbA",
+  "tenant": "cc27b13a-f003-4fa1-8cd7-7b85e7162bde"
+}
+
+provider "azurerm" {
+  features {}
+
+  subscription_id = "3e1292a5-5ba2-445a-a910-d10a68561a8b"
+  tenant_id       = "cc27b13a-f003-4fa1-8cd7-7b85e7162bde"
+  client_id       = "306a713e-3c82-45dc-a7a3-73ab7dd88763"
+  client_secret   = "cIS8Q~W3w_4zeKeNpxd3eACbRymxGuBlgUKBvdbA"
+}
+
+https://github.com/veereshmarella379-cpu/projectone.git
